@@ -1,0 +1,12 @@
+/* Estilo del contenedor Cards */
+.cards-container {
+    width: 85%;
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Divide en casillas de al menos 300px de ancho */
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-items: center; /* Centrar verticalmente */
+}
+
+/* Estilo de la tarjeta */
+

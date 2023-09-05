@@ -1,0 +1,8 @@
+.home-container {
+    background-image: url('./img/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra completamente el contenedor sin distorsionarla */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    color: #fff;
+}

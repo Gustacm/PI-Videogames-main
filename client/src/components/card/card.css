@@ -1,0 +1,42 @@
+/* Estilo de la tarjeta */
+.card {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #2b2929;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Redujimos el espacio interior para hacer que la tarjeta sea más pequeña */
+    text-align: center;
+    background-color: #313030;
+    width: 200px; /* Ancho más pequeño */
+    margin: 10px; /* Espacio entre las tarjetas */
+    transition: transform 0.3s, box-shadow 0.3s, z-index 0.3s;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transform-origin: center bottom;
+    opacity: 0.9; /* Valor de opacidad reducido */
+}
+
+/* Estilo para la imagen (ajusta según tus necesidades) */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los encabezados */
+.card h2 {
+    font-size: 1rem; /* Tamaño de fuente más pequeño */
+    margin: 10px 0;
+}
+
+/* Estilo cuando el cursor pasa por encima */
+.card:hover {
+    transform: scale(1.05); /* Transformación de escala al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: transform 0.25s ease-out;
+    opacity: 1; /* Restaurar la opacidad al pasar el cursor */
+}

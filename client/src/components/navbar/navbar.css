@@ -1,0 +1,32 @@
+/* Estilos para la barra de búsqueda */
+.form-container {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a4b;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  button[type="submit"] {
+    background-color: #55565785;
+    color: #00f100;
+    border: none;
+    padding: 9px 13px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #7c7c7c;
+  }
+  
